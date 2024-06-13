@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./image/favicon.svg" />
+    <meta name="description" content="Contrata a Gustavo para crear tu aplicación web o móvil. Desarrollador Web y diseñador.">
+    <title>Porfolio - Gustavo Gomez - Desarrollador web Frontend y diseñador de interfaces</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Bungee:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        scroll-behavior: smooth;
+      }
+      body {
+        /* background-color: #070606; */
+        background-color: #121212; 
+        display: grid;
+        place-items: center;
+        color: white;
+        font-family: "Bungee", sans-serif;
+        color-scheme: light dark;
+       
+
+      }
+      i {
+        padding: 4px;
+        margin: 2pxs;
+      }
+      main {
+        width: 100%;
+        max-width: 800px; /* Ajusta este valor según tu preferencia */
+        padding: 24px;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        opacity: 0.8;
+      }
+      #aprendizaje {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 24px;
+
+        & span {
+          font-size: 12PX;
+        }
+  
+      }
+       nav a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 1000;
+       }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav
+        class="fixed flex sm:py-4 items-center font-semibold text-blue-400  sm:gap-20 z-99"
+      >
+      <a href="#projects" class="text-md pr-4 sm:pr-10">Proyectos</a>
+      <a href="#aprendizaje" class="text-md pr-4 sm:pr-10">Aprendizaje</a>
+        <a href="#about" class="text-md pr-4 sm:pr-10">Sobre mi</a>
+        <a href="#contacto" class="text-md pr-4 sm:pr-10">Contacto</a>
+      </nav>
+      <header class="mt-28">
+        <h1 class="text-xl sm:text-4xl font-bold">Gustavo Gomez</h1>
+        <p class="text-sm sm:text-lg py-4 text-gray-400">
+          Estudiante en desarrollo web Frontend, con muchas ganas de aprender y
+          trabajar..
+        </p>
+        <nav class="text-sm flex gap-4 sm:gap-6 items-center text-blue-500 flex-wrap">
+          <a target="_blank" href="https://www.linkedin.com/in/gustavo-gomez-48077a218/"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
+          <a target="_blank" href="https://github.com/howgomez"><i class="fa-brands fa-github"></i>Github</a>
+          <a target="_blank" href="https://x.com/RiverMunich912"><i class="fa-brands fa-twitter"></i>Twitter</a>
+          <a target="_blank" href="mailto:gustavoaguirregomez10@gmail.com"
+            ><i class="fa-regular fa-envelope"></i>Contactame</a
+          >
+        </nav>
+      </header>
+      <section id="projects" class="mt-28">
+        <h2 class=" text-xl sm:text-3xl font-bold">Proyectos</h2>
+        <div class="flex flex-col gap-10 mt-10">
+          <div class="w-full">
+            <img
+              src="./image/proyect-1.png"
+              alt="302 shots"
+              class="w-full h-auto object-cover rounded-lg"
+            />
+          </div>
+          <div class="flex flex-col gap-2">
+            <h1>Search Movies</h1>
+            <p class="text-gray-400">
+              Busca la informacion de las peliculas y donde verlas con un click.
+              Tambien enterate de las peliculas mas populares del año.
+            </p>
+           <div>
+            <span><i class="fa-brands fa-react text-1xl sm:text-1xl"></i>React</span>
+            <span><i class="fa-brands fa-js text-1xl sm:text-1xl"></i>Javascript</span>
+            <span class="flex"><img src="https://svgl.app/library/tailwindcss.svg" class="w-6">TAILWIND</span>
+           </div>
+            <a href="https://search-movies-nu.vercel.app/" target="_blank" class="text-blue-500 hover:underline">Ver proyecto</a>
+          </div>
+          <!-- <div class="w-full">
+            <img
+              src="./image/proyect-1.png"
+              alt="302 shots"
+              class="w-full h-auto object-cover rounded-lg"
+            />
+          </div> -->
+          <!-- <div>
+            <h1>302 shots</h1>
+            <p class="text-gray-400">
+              Un juego de 302 shots, que se puede jugar en cualquier momento.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Ver proyecto</a>
+          </div>
+          <div class="w-full">
+            <img
+              src="./image/proyect-1.png"
+              alt="302 shots"
+              class="w-full h-auto object-cover rounded-lg"
+            />
+          </div>
+          <div>
+            <h1>302 shots</h1>
+            <p class="text-gray-400">
+              Un juego de 302 shots, que se puede jugar en cualquier momento.
+            </p>
+            <a href="#" class="text-blue-500 hover:underline">Ver proyecto</a>
+          </div> -->
+        </div>
+      </section>
+      <section id="aprendizaje" class="mt-28">
+        <h2 class=" text-xl  sm:text-3xl font-bold">Aprendizaje</h2>
+        <div class="flex flex-wrap gap-8 items-center">
+          <span><i class="fa-brands fa-react text-5xl sm:text-6xl"></i>React</span>
+          <span><i class="fa-brands fa-js text-5xl sm:text-6xl"></i>Javascript</span>
+          <span><i class="fa-brands fa-html5 text-5xl sm:text-6xl"></i>HTML</span>
+          <span><i class="fa-brands fa-css3-alt text-5xl sm:text-6xl"></i>CSS</span>
+          <span><img src="https://svgl.app/library/tailwindcss.svg" class="w-16">TAILWIND</span>
+          <span><i class="fa-brands fa-github text-5xl sm:text-6xl"></i>GITHUB</span>
+          <span><i class="fa-brands fa-git-alt text-5xl sm:text-6xl"></i>GIT</span>
+          <span><i class="fa-brands fa-bootstrap text-5xl sm:text-6xl"></i>BOOSTRAP</span>
+        </div>
+        <p class="text-gray-400 mt-4">
+          Estoy aprendiendo mucho sobre el desarrollo web, y estoy muy interesado
+          en aprender más!
+        </p>
+      </section>
+      <section id="about" class="mt-28">
+        <h2 class=" font-bold text-xl sm:text-3xl">Sobre mi</h2>
+        <p class="text-gray-400 mt-4 text-sm sm:text-lg">
+          Soy Gustavo Aguirre, estudiante en la facultad UNLP y cursante en
+          cursos online. Soy de Buenos Aires, Argentina. Y hoy en dia me
+          encuentro aprendiendo sobre nuevas tecnologias y enfocado en crear mis
+          proyectos.
+        </p>
+      </section>
+
+      <section id="contacto" class="mt-28 text-gray-400">
+        <h2 class="text-3xl font-bold mb-4 text-white">Contacto</h2>
+        <p>Contactame si deseas trabajar en conjunto conmigo.
+        </p>
+        <P>
+            En busca de trabajo remoto o presencial, puedes contactarme por mis redes sociales. Nos vemos pronto.
+        </P>
+        <p class="text-blue-400 mt-4 flex flex-wrap gap-4">
+            <a target="_blank" href="https://www.linkedin.com/in/gustavo-gomez-48077a218/"
+              ><i class="fa-brands fa-linkedin-in"></i>Linkedin</a
+            >
+            <a target="_blank" href="https://github.com/howgomez"
+              ><i class="fa-brands fa-github"></i>Github</a
+            >
+            <a target="_blank" href="https://x.com/RiverMunich912"
+              ><i class="fa-brands fa-twitter"></i>Twitter</a
+            >
+            <a target="_blank" href="mailto:gustavoaguirregomez10@gmail.com">Contactame</a>
+    </main>
+  </body>
+</html>
