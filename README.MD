@@ -7,6 +7,6 @@ El proyecto de la aplicación de gestión de portafolio se basa en la creación 
 
 ## Creado con:
 
-\*[HTML](#html)
+[HTML](#html)
 
-\*[CSS](#css)
+[CSS](#css)
