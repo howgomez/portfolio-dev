@@ -3,15 +3,30 @@
 @tailwind utilities;
 
 @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #000;
-        color: #fff;
-      }
-    }
-    
-    @media (prefers-color-scheme: light) {
-      body {
-        background-color: #fff;
-        color: #000;
-      }
-    }
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.noseve {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.noseve p {
+  margin: 0;
+  padding: 0;
+}
+
+.noseve:target {
+  height: auto;
+}
